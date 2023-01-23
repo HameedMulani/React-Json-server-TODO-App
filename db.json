@@ -1,0 +1,23 @@
+{
+  "todo": [
+    {
+      "id": 2,
+      "done": "false",
+      "title": "Attend LeetCode daily challange",
+      "desc": "Topic: Linked List "
+    },
+    {
+      "id": 3,
+      "done": "false",
+      "title": "DSA Revision",
+      "desc": "From Notes"
+    },
+    {
+      "id": 4,
+      "done": "false",
+      "title": "CN revision",
+      "desc": "Topic: OSI Model",
+      "": "false"
+    }
+  ]
+}
