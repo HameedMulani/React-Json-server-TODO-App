@@ -23,18 +23,18 @@ const AddTodo = () => {
         history("/")
     }
 
-    return (<div className="container">
+    return (<div className="container text-transparent">
         <div className="py-4">
             <h1>Add Task</h1>
         </div>
         <form onSubmit={e => onSubmit(e)}>
             <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Enter Title</label>
+                <label className="form-label text-transparent">Enter Title</label>
                 <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="title" value={title} onChange={e => onChangeTodo(e)}/>
                 <div id="emailHelp" className="form-text">Title should be in 1 to 4 Words.</div>
             </div>
             <div className="mb-3">
-                <label htmlFor="exampleInputPassword1" className="form-label">Enter Descreption</label>
+                <label className="form-label text-transparent">Enter Descreption</label>
                 <input type="text" className="form-control" id="exampleInputPassword1" name="desc" value={desc} onChange={e => onChangeTodo(e)} />
             </div>
             <MDBBtn type="submit" color='info'>Submit</MDBBtn>

@@ -4,24 +4,35 @@
   min-height: 100vh;
 }
 .fa-eye{
-  color: white;
+  color: coral;
 }
 .fa-pen{
-  color: white;
+  color: gray;
 }
 .fa-trash-alt{
   color: green;
 }
-input[type=checkbox]
+
+
+.table{
+  /* font-family: 'Oswald', sans-serif !important; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+/* input[type=checkbox]
 {
   /* Double-sized Checkboxes */
   -ms-transform: scale(2); /* IE */
   -moz-transform: scale(2); /* FF */
   -webkit-transform: scale(2); /* Safari and Chrome */
   -o-transform: scale(2); /* Opera */
-  padding: 10px;
-}
-.table{
-  /* font-family: 'Oswald', sans-serif !important; */
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-}
+  /* padding: 10px;
+} */ 
